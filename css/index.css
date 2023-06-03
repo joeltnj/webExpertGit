@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100%;
+    background: rgb(255, 58, 23);
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background: rgb(117, 116, 107);
+    height: 100px;
+}
+.section{
+    background: rgb(27, 52, 85);
+    flex: 1 0 auto;
+}
+.footer{
+    background: rgb(92, 72, 72);
+    height: 100px;
+}
